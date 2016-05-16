@@ -16,11 +16,6 @@
             "Daijinload\\Phptest\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Phptest\\Tests\\": "tests/"
-        }
-    },
     "extra": {
         "branch-alias": {
             "dev-master": "master"
