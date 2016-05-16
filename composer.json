@@ -1,0 +1,33 @@
+{
+    "name": "daijinload/phptest",
+    "type": "library",
+    "description": "daijin test php composer",
+    "keywords": [],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "files": ["src/Hoge.php"],
+        "psr-4": {
+            "Oreore\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phptest\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    },
+    "repositories": [{
+        "packagist": false
+    }]
+}
