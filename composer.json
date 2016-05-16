@@ -12,9 +12,8 @@
     "require-dev": {
     },
     "autoload": {
-        "files": ["src/Hoge.php"],
         "psr-4": {
-            "Oreore\\": "src/"
+            "Phptest\\": "src/"
         }
     },
     "autoload-dev": {
