@@ -1,7 +1,7 @@
 # PHP TDD SAMPLE
 
 ## require composer
-[PHPの最小限セットアップ](http://qiita.com/daijinload/items/3eb3d7d776143b3c5392)
+[PHP7をwindows7にインストールする](http://qiita.com/daijinload/items/3eb3d7d776143b3c5392)
 
 ## setup
 
