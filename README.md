@@ -1,31 +1,22 @@
-# phptest
+# PHP TDD SAMPLE
 
-samples
+## require composer
+[PHPの最小限セットアップ](http://qiita.com/daijinload/items/3eb3d7d776143b3c5392)
 
-~~~~
-index.php
-<?php
+## setup
 
-require 'vendor/autoload.php';
+```bash
+php composer.phar install
+```
 
-$hoge = new Daijinload\Phptest\Hoge();
-echo $hoge->say();
+## run
 
-$fuga = new Daijinload\Phptest\sub\Fuga();
-echo $fuga->say();
-~~~~
+```bash
+php vendor/peridot-php/peridot/bin/peridot --force-colors tests/
+```
 
-~~~~
-composer.json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/daijinload/phptest"
-        }
-    ],
-    "require": {
-        "daijinload/phptest": "*"
-    }
-}
-~~~~
+## run and watch
+
+```bash
+php vendor/peridot-php/peridot/bin/peridot --force-colors --watch tests/
+```
