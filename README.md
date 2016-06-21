@@ -12,11 +12,11 @@ php composer.phar install
 ## run
 
 ```bash
-php vendor/peridot-php/peridot/bin/peridot --force-colors tests/
+./vendor/bin/peridot --force-colors tests/
 ```
 
 ## run and watch
 
 ```bash
-php vendor/peridot-php/peridot/bin/peridot --force-colors --watch tests/
+./vendor/bin/peridot --force-colors --watch tests/
 ```
